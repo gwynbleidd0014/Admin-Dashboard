@@ -16,7 +16,9 @@
   <body>
     <header class="header">
       <div class="search">
-        <label for="search"></label>
+        <label for="search"
+          ><img src="./assets/search.svg" alt="search"
+        /></label>
         <input type="search" id="search" name="search" />
       </div>
       <div class="info">
@@ -28,8 +30,21 @@
         </div>
         <div class="name">Luffy</div>
       </div>
+      <div class="profiledef">
+        <img src="./assets/profile0.png" alt="profile-picture" />
+        <div class="profile-info">
+          <p class="greeting">Hi there,</p>
+          <h2 class="profile-name">Monkey D. Luffy(@mugiwara)</h2>
+        </div>
+      </div>
+      <div class="buttons">
+        <button class="btn">New</button>
+        <button class="btn">Upload</button>
+        <button class="btn">Share</button>
+      </div>
     </header>
     <nav class="nav">
+      <h1 class="nav-heading">Dashboard</h1>
       <div class="nav-item">
         <img src="./assets/home.svg" alt="home icon" />
         <p class="nav-item-text">Home</p>
@@ -68,7 +83,7 @@
       </div>
     </nav>
     <main class="main">
-      <h2 class="main-heading">Your Projects</h2>
+      <h2 class="section-heading">Your Projects</h2>
       <div class="projects">
         <div class="project">
           <h3 class="project-heading">Dummy</h3>
@@ -122,9 +137,56 @@
         </div>
       </div>
     </main>
-    <aside>
-      <div class="announcements"></div>
-      <div class="trending"></div>
+    <aside class="aside">
+      <div class="announcements-wrapper">
+        <h2 class="section-heading">Announcements</h2>
+        <div class="announcements">
+          <div class="announcement">
+            <h4 class="announcement-heading">Heading</h4>
+            <p class="announcement-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima.
+            </p>
+          </div>
+          <div class="announcement">
+            <h4 class="announcement-heading">Heading</h4>
+            <p class="announcement-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima.
+            </p>
+          </div>
+          <div class="announcement">
+            <h4 class="announcement-heading">Heading</h4>
+            <p class="announcement-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="trendings-wrapper">
+        <h2 class="section-heading">Trending</h2>
+        <div class="trendings">
+          <div class="profiledef trending">
+            <img src="./assets/profile1.png" alt="profile-picture" />
+            <div class="profile-info">
+              <p class="greeting">@marimo</p>
+              <h2 class="profile-name">Roronoa Zoro</h2>
+            </div>
+          </div>
+          <div class="profiledef trending">
+            <img src="./assets/profile2.png" alt="profile-picture" />
+            <div class="profile-info">
+              <p class="greeting">@ace</p>
+              <h2 class="profile-name">Portgas D. Ace</h2>
+            </div>
+          </div>
+          <div class="profiledef trending">
+            <img src="./assets/profile3.png" alt="profile-picture" />
+            <div class="profile-info">
+              <p class="greeting">@claw</p>
+              <h2 class="profile-name">Sabo</h2>
+            </div>
+          </div>
+        </div>
+      </div>
     </aside>
   </body>
 </html>

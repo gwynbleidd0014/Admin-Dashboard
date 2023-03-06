@@ -13,7 +13,7 @@ This is a solution to Odin Projects Admin-dashboard challange.
 
 ## Overview
 
-This is a simple Admin dashboard, practicing css grid skills.
+This is a simple Admin dashboard, practicing css grid skills!
 
 ### Screenshot
 
